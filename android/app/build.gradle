@@ -1,5 +1,6 @@
 def localProperties = new Properties()
 def localPropertiesFile = rootProject.file('local.properties')
+def localKeystoreFile = rootProject.file('E:/PersonalProject/weather/others/levi.keystore')
 if (localPropertiesFile.exists()) {
     localPropertiesFile.withReader('UTF-8') { reader ->
         localProperties.load(reader)
@@ -54,15 +55,15 @@ android {
 
     signingConfigs {
         debug {
-            storeFile file("D:/keystore/mine/levi.keystore")//签名文件
+            storeFile file("$localKeystoreFile") // test签名文件
             storePassword "levitest"
-            keyAlias "levitest" //别名
+            keyAlias "levitest"
             keyPassword "levitest"
         }
         release {
-            storeFile file("D:/keystore/mine/levi.keystore")//签名文件
+            storeFile file("$localKeystoreFile") // test签名文件
             storePassword "levitest"
-            keyAlias "levitest" //别名
+            keyAlias "levitest"
             keyPassword "levitest"
         }
     }

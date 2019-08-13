@@ -2,15 +2,16 @@
 
 Flutter MIUI Weather.
 
-## Getting Started
+模仿MIUI天气App，目前已实现主界面的下拉刷新动画与Appbar的交互、PageView添加多个城市、获取小米天气Api、24h折线图。
 
-This project is a starting point for a Flutter application.
+## GIF
+![主页GIF](others/main1.gif "主页Gif")
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
-
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+## TODO
+- 15天天气折线图
+- 首页日出图view
+- 首页天气指数view
+- 首页今日资讯view
+- 首页天气动画
+- 城市管理页面
+- 添加城市页面

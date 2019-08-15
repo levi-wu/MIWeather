@@ -5,7 +5,7 @@ Flutter MIUI Weather.
 模仿MIUI天气App，目前已实现主界面的下拉刷新动画与Appbar的交互、PageView添加多个城市、获取小米天气Api、24h折线图。
 
 ## GIF
-![主页GIF](others/main1.gif "主页Gif")
+![主页GIF](others/main.gif "主页Gif")
 
 ## TODO
 - 15天天气折线图
